@@ -62,31 +62,45 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 1rem;
+  --background: oklch(0.985 0.005 95);
+  --foreground: oklch(0.18 0.02 160);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: oklch(0.18 0.02 160);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
+  --popover-foreground: oklch(0.18 0.02 160);
+  --primary: oklch(0.55 0.17 155);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.95 0.02 150);
+  --secondary-foreground: oklch(0.25 0.05 155);
+  --muted: oklch(0.95 0.01 120);
+  --muted-foreground: oklch(0.5 0.02 150);
+  --accent: oklch(0.93 0.05 150);
+  --accent-foreground: oklch(0.25 0.05 155);
+  --destructive: oklch(0.6 0.22 27);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.9 0.01 150);
+  --input: oklch(0.92 0.01 150);
+  --ring: oklch(0.55 0.17 155);
+
+  --waste-organic: oklch(0.55 0.12 65);
+  --waste-organic-fg: oklch(0.99 0 0);
+  --waste-plastic: oklch(0.82 0.17 95);
+  --waste-plastic-fg: oklch(0.2 0.02 95);
+  --waste-glass: oklch(0.6 0.16 145);
+  --waste-glass-fg: oklch(0.99 0 0);
+  --waste-paper: oklch(0.55 0.18 250);
+  --waste-paper-fg: oklch(0.99 0 0);
+  --waste-mixed: oklch(0.45 0.01 240);
+  --waste-mixed-fg: oklch(0.99 0 0);
+  --waste-none: oklch(0.88 0.01 150);
+  --waste-none-fg: oklch(0.35 0.02 150);
+
+  --chart-1: var(--waste-organic);
+  --chart-2: var(--waste-plastic);
+  --chart-3: var(--waste-glass);
+  --chart-4: var(--waste-paper);
+  --chart-5: var(--waste-mixed);
   --sidebar: oklch(0.984 0.003 247.858);
   --sidebar-foreground: oklch(0.129 0.042 264.695);
   --sidebar-primary: oklch(0.208 0.042 265.755);
