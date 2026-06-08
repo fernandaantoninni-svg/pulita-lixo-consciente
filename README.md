@@ -1,4 +1,5 @@
 # PULITA
+- Sito per visualizzare https://pulita-lixo-na-rua.lovable.app
 
 > Lixo certo, dia certo. Evite multas e mantenha a sua rua limpa.
 
